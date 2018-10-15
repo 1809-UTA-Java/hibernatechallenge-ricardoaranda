@@ -6,8 +6,8 @@ DEFAULT TABLESPACE users
 TEMPORARY TABLESPACE temp
 QUOTA 10M ON users;
 
-GRANT connect to ers;
-GRANT resource to ers;
-GRANT create session to ers;
-GRANT create table to ers;
-GRANT create view to ers;
+GRANT connect to challenge;
+GRANT resource to challenge;
+GRANT create session to challenge;
+GRANT create table to challenge;
+GRANT create view to challenge;
